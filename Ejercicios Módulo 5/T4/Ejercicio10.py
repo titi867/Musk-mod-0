@@ -17,13 +17,13 @@ def ventas_productos():
                     datos['moisturizer']]
 
     etiquetas = ['Crema facial', 'Lavado de cara', 'Pasta de dientes',
-                 'Gel de baño', 'Shampoo', 'Moisturizer']
+                 'Gel de baño', 'Champú', 'Hidratante']
     
     colores = ['m', 'c', 'r', 'k', 'g', 'y']
 
     plt.stackplot(meses, datos_ventas, labels=etiquetas, colors=colores)
 
-    plt.title("Todas las ventas de productos en un stack plot")
+    plt.title("GitHub_MUSK: Todas las ventas de productos en un stack plot")
     plt.xlabel("Número de mes")
     plt.ylabel("Unidades de ventas en número")
     plt.legend(loc='upper left')
