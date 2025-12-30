@@ -1,0 +1,41 @@
+Los 4 Pilares Fundamentales de la POO
+
+Estos principios forman la base para escribir código modular, reutilizable y fácil de mantener: 
+
+Abstracción: Permite modelar objetos del mundo real y centrarse en sus características y comportamientos 
+            esenciales, ocultando los detalles irrelevantes de bajo nivel.
+
+Encapsulamiento: Consiste en ocultar el estado interno y los datos de un objeto, permitiendo el acceso 
+            solo a través de métodos públicos bien definidos. Esto protege los datos y simplifica la interfaz 
+            del objeto.
+
+Herencia: Permite crear nuevas clases (subclases) basadas en clases existentes (superclases), heredando 
+          atributos y métodos. Esto fomenta la reutilización del código y modela relaciones jerárquicas (es-un).
+
+Polimorfismo: La capacidad de que objetos de diferentes clases respondan a un mismo mensaje o método de 
+          maneras distintas, adaptándose a su tipo específico. Literalmente significa "muchas formas". 
+
+----------------------------
+
+Los 5 Principios SOLID (Buenas Prácticas de Diseño)
+
+Para complementar los pilares, estos cinco principios de diseño (que forman el acrónimo SOLID) 
+son considerados las mejores prácticas para desarrollar software robusto y flexible: 
+
+SRP (Single Responsibility Principle - Principio de Responsabilidad Única): Una clase debe tener solo 
+    una razón para cambiar, es decir, debe tener una única responsabilidad bien definida.
+
+OCP (Open/Closed Principle - Principio de Abierto/Cerrado): Las entidades de software (clases, módulos, 
+    funciones) deben estar abiertas para extensión, pero cerradas para modificación.
+
+LSP (Liskov Substitution Principle - Principio de Sustitución de Liskov): Los objetos de una subclase 
+    deben poder sustituir a los objetos de su superclase sin alterar el correcto funcionamiento del programa.
+
+ISP (Interface Segregation Principle - Principio de Segregación de Interfaces): Es mejor tener muchas 
+    interfaces específicas para clientes concretos que una sola interfaz de propósito general.
+
+DIP (Dependency Inversion Principle - Principio de Inversión de Dependencias): Se debe depender de abstracciones 
+    (interfaces o clases abstractas) en lugar de implementaciones concretas. 
+
+Al seguir estos principios y buenas prácticas, los desarrolladores pueden crear aplicaciones robustas, 
+modulares y fáciles de mantener. 
